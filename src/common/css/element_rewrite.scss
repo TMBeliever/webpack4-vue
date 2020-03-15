@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*这个样式表，用于覆盖element的样式*/
+/* --------------覆盖confirm样式框 -------------- */
+.el-message-box {
+	width: 500px;
+	height: 234px;
+	margin-top: 0vh;
+}
+.el-message-box .el-message-box__header {
+	padding: 0 0 0 15px;
+    height: 40px;
+    background: #F5F5F5;
+}
+.el-message-box .el-message-box__header .el-message-box__title {
+	font-size: 14px;
+	line-height: 40px;
+	color: #333333;
+}
+.el-message-box .el-message-box__header .el-message-box__headerbtn {
+	top: 9px;
+    right: 10px;
+}
+.el-message-box .el-message-box__header .el-message-box__headerbtn i {
+	font-size: 22px;
+	color: #919191;
+}
+.el-message-box .el-message-box__header .el-message-box__headerbtn i:hover {
+	color: #F71A3B;
+}
+.el-message-box .el-message-box__content {
+	height: 134px;
+	padding: 20px 15px 15px;
+}
+.el-message-box .el-message-box__content .el-message-box__status {
+	display: none;
+}
+.el-message-box .el-message-box__content .el-message-box__message {
+	padding-left: 0; 
+    padding-right: 0;
+}
+.el-message-box .el-message-box__btns {
+	text-align: center;
+}
+.el-message-box .el-message-box__btns button:nth-child(2) {
+	margin-left: 20px;
+}
+.el-message-box .el-message-box__btns .el-button--small {
+	padding: 12px 40px;
+    font-size: 14px;
+}
+/* --------------覆盖confirm样式框 -------------- */
