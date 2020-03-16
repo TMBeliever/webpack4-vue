@@ -11,6 +11,10 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin');
 prodConfig = {
   mode: 'production',
   devtool: 'cheap-module-source-map',
+  output: {
+    filename: 'js/[name].[contenthash:8].js',
+    chunkFilename: "js/[name].[contenthash:8].js",
+  },
   optimization: {
     moduleIds: 'hashed',
     namedChunks: true,

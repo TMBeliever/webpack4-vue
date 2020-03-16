@@ -20,8 +20,8 @@ function resolveResource(name) {
 module.exports = {
   entry: './src/main.js',
   output: {
-    filename: 'js/[name].[contenthash:8].js',
-    chunkFilename: "js/[name].[contenthash:8].js",
+    filename: 'js/[name].[hash:8].js',
+    chunkFilename: "js/[name].[hash:8].js",
     path: path.resolve(__dirname, '../dist'),
     publicPath: config.build.assetsPublicPath
   },
