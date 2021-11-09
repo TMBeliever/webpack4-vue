@@ -42,7 +42,7 @@
     "@babel/polyfill": "^7.7.0",
     "@intervolga/optimize-cssnano-plugin": "^1.0.6",
     "autoprefixer": "^9.7.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "babel-eslint": "^10.1.0",
     "chalk": "^3.0.0",
     "compression-webpack-plugin": "^3.1.0",
