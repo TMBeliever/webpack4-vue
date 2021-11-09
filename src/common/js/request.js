@@ -15,6 +15,7 @@ import qs from 'qs';
 //   }
 // }
 // 创建axios 实例
+console.log('123');
 const service = axios.create({
   baseURL: process.env.BASE_URL, // api的base_url
   withCredentials: true,
